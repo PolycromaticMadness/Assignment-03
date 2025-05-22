@@ -1,0 +1,148 @@
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 16px !important;
+  }
+  .banner-div {
+    height: 600px;
+  }
+  .banner-div img {
+    height: 600px;
+  }
+  .avatar {
+    width: 30px;
+  }
+  .avatar-img {
+    display: none;
+  }
+  .target,
+  .info {
+    padding: 30px;
+  }
+  .btn-custom {
+    font-size: 16px !important;
+    padding: 6px 41%;
+    border-radius: 3px;
+  }
+  .form-text {
+    font-size: 16px !important;
+  }
+  .form-custom-focus {
+    height: 27px !important;
+    font-size: 16px !important;
+  }
+  .grid-container6 {
+    grid-template-areas:
+      "a c"
+      "a c"
+      "a b"
+      "f b"
+      "f d"
+      "e d"
+      "e space";
+    margin: 40px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    gap: 30px;
+  }
+  .experience {
+    grid-area: a;
+  }
+  .education {
+    grid-area: b;
+  }
+  .activity {
+    grid-area: c;
+  }
+  .hobby {
+    grid-area: d;
+  }
+  .language {
+    grid-area: e;
+  }
+  .skill {
+    grid-area: f;
+  }
+  .container6-div h1 {
+    margin-bottom: 12px;
+  }
+  .container6-div h2 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .flex-title {
+    margin-bottom: 20px;
+  }
+  .flex-title h2 {
+    padding-bottom: 5px;
+  }
+  .flex-title i {
+    padding-bottom: 0px;
+  }
+  .hobby-icon {
+    height: 52px;
+    width: 50px;
+  }
+  .toggle-body {
+    padding: 4px 23px 3px;
+    font-size: 13px;
+    border: none;
+    background-color: rgb(255, 245, 188);
+    color: #000;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+  }
+  .gray-background2 {
+    height: 750px;
+  }
+  .certificates {
+    grid-template-rows: 300px 300px;
+    margin: 40px;
+  }
+  .cert-h2 {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .cert-img {
+    float: none;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .borderleft::after {
+    height: 270px;
+  }
+  .proj-h2 {
+    margin-left: 40px;
+  }
+  .projects {
+    margin: 0px 40px 40px;
+    height: 100%;
+    align-items: stretch;
+    overflow: hidden;
+  }
+  .pj-inblk {
+    font-size: 13px !important;
+  }
+  .sub-flex {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .sub-flex div {
+    padding: 0;
+  }
+  .pj-table {
+    height: 100%;
+    overflow: hidden;
+  }
+  table {
+    height: 100%;
+  }
+  tbody {
+    height: 100%;
+  }
+  .tr-stretch {
+    height: 100%;
+  }
+}
